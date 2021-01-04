@@ -10,6 +10,6 @@ cd xmrig &&
 tar -xzf xmrig-6.7.0-linux-x64.tar.gz &&
 cd xmrig-6.7.0 &&
 rm config.json &&
-cp ../config.json config.json
+cp ../config.json config.json &&
 ./xmrig
 ```
