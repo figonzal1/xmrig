@@ -5,11 +5,11 @@ apt-get update &&
 apt-get upgrade -y &&
 apt-get install iputils-ping nano git -y && 
 cd &&
-git clone https://github.com/figonzal1/xmrig.git &&
-cd xmrig &&
-tar -xzf xmrig-6.7.0-linux-x64.tar.gz &&
-cd xmrig-6.7.0 &&
-rm config.json &&
-cp ../config.json config.json &&
+wget https://github.com/xmrig/xmrig/releases/download/v6.9.0/xmrig-6.9.0-linux-x64.tar.gz &&
+cd xmrig-6.9.0-linux-x64.tar.gz &&
+tar -xzf xmrig-6.9.0-linux-x64.tar.gz &&
+cd xmrig-6.9.0 &&
+mv xmrig ../ &&
+rm -rf xmrig-6.9.0 xmrig-6.9.0-linux-x64.tar.gz &&
 ./xmrig -c CONFIG_FILE
 ```
