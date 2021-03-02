@@ -62,7 +62,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "argon2/chukwav2",
             "coin": null,
             "url": "pool.hashvault.pro:80",
             "user": "TRTLv1We7TyD6GiLHPJUgoeuxZU7sNejd3k26aTQ1nqG5fpzdXPooKWDXHdoe5mXzvW9fujM5vXMoByc1ShuWMP8fYSUHV7p2uK",
