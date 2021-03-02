@@ -62,7 +62,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": "turtlecoin",
             "coin": null,
             "url": "turtlecoin.herominers.com:10381",
             "user": "TRTLv1We7TyD6GiLHPJUgoeuxZU7sNejd3k26aTQ1nqG5fpzdXPooKWDXHdoe5mXzvW9fujM5vXMoByc1ShuWMP8fYSUHV7p2uK",
